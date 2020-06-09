@@ -1,0 +1,29 @@
+{
+  "name": "test-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atiqueahmedziad/test-git.git"
+  },
+  "keywords": [],
+  "author": "Ziad <softfilebd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atiqueahmedziad/test-git/issues"
+  },
+  "homepage": "https://github.com/atiqueahmedziad/test-git#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.1",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
+  }
+}
