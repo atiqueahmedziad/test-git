@@ -1,5 +1,9 @@
-import add from './function.js';
+import functions from './function.js';
 
 test('addtion check', () => {
-  expect(add(2, 3)).toBe(5);
+  expect(functions.add(2, 3)).toBe(5);
+});
+
+test('subtract check', () => {
+  expect(functions.subtract(5, 1)).toBe(4);
 });
