@@ -9,7 +9,8 @@
     "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info",
     "lint": "eslint '**/*.js'",
     "lint:fix": "eslint '**/*.js' --write",
-    "prettier:check": "prettier --check"
+    "prettier:check": "prettier --check '**/*.js'",
+    "prettier:fix": "prettier --write '**/*.js'"
   },
   "repository": {
     "type": "git",
