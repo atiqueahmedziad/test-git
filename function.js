@@ -1,4 +1,10 @@
-const add = function add(num1, num2) {
-  return num1 + num2;
+const functions = {
+  add: function add(num1, num2) {
+    return num1 + num2;
+  },
+  multiply: function add(num1, num2) {
+    return num1 * num2;
+  },
 };
-export default add;
+
+export default functions;
