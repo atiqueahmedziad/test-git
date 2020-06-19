@@ -4,6 +4,7 @@ node_js:
   - node
 
 script:
+  - npm run prettier:check
   - npm run lint
   - npm run test:coveralls
 
